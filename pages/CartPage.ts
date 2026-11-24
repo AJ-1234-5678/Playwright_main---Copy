@@ -1,11 +1,12 @@
 import { Page } from '@playwright/test';
 
 export class CartPage {
-
+/* Comment */
   readonly page: Page;
 
   readonly productNames;
   readonly checkoutButton;
+  
 
   constructor(page: Page) {
     this.page = page;
