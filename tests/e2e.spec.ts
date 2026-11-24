@@ -8,6 +8,7 @@ test('SauceDemo End to End Flow', async ({ page }) => {
   // Login
   await page.locator('#user-name').fill('standard_user');
   await page.locator('#password').fill('secret_sauce');
+  await page.locator('Ajay').fill('fghj');
   await page.locator('#login-button').click();
 
   // Verify Products page
